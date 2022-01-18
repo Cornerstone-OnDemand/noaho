@@ -25,7 +25,7 @@ noaho_module = Extension(
     extra_link_args=extra_args,
 )
 
-version = "0.10.0"
+version = "0.11.0"
 
 setup(
     name="noahong",
@@ -45,7 +45,6 @@ setup(
         "Programming Language :: C++",
         "Programming Language :: Cython",
         "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",

@@ -14,7 +14,7 @@ SRC_DIR=${ROOT_DIR}/src
 # noaho.cpp is the python wrapper that Cython generates
 NOAHO_WRAPPER=${SRC_DIR}/noaho.cpp
 LOGFILE=${ROOT_DIR}/test-results.log
-VERSIONED_CYTHON="Cython-0.22.1"
+VERSIONED_CYTHON="Cython-0.29.26"
 VIRTUAL_ENV_NAME="noaho-test-venv"
 
 
