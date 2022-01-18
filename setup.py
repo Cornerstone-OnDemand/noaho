@@ -7,11 +7,16 @@ extra_args = ["-std=c++11"]
 if sys.platform == "darwin":
     extra_args.append("-stdlib=libc++")
 
+if sys.version_info < (3, 9):
+    file_source = "src/noahong_legacy.cpp"
+else:
+    file_source = "src/noahong.cpp"
+
 noaho_module = Extension(
     "noahong",
     sources=[
         # Cython generated
-        "src/noahong.cpp",
+        file_source,
         # original
         "src/array-aho.cpp",
     ],
@@ -43,6 +48,8 @@ setup(
         "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
         "Operating System :: OS Independent",
         "Environment :: Console",
         "Topic :: Text Processing",
