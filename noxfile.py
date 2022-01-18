@@ -1,7 +1,7 @@
 import nox
 
 
-@nox.session(python=["3.5", "3.6", "3.7", "3.8", "3.9"])
+@nox.session(python=["3.7", "3.8", "3.9", "3.10"])
 def test(session):
     session.install("pytest", ".")
     session.run("pytest", "-ra", "--tb=native", "--verbose", "test-noaho.py")

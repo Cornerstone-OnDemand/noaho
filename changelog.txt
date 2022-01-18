@@ -1,3 +1,7 @@
+2022-01-18, 0.11.0
+* support python 3.10 new macros
+* bump Cython version to 0.29.26
+
 2015-07-04, 0.9.6.1
 * removed extraneous use of 'typename' in array-aho.h:92
 
