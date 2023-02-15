@@ -53,5 +53,5 @@ setup(
         "Environment :: Console",
         "Topic :: Text Processing",
     ],
-    python_requires=">=3.6.*, <4",
+    python_requires=">=3.7,<4",
 )
