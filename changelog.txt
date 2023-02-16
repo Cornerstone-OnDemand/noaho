@@ -1,3 +1,6 @@
+2023-02-16, 0.11.1
+* drop support of python 3.6 for pip
+
 2022-01-18, 0.11.0
 * support python 3.10 new macros
 * bump Cython version to 0.29.26
