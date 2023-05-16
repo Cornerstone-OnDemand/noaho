@@ -64,3 +64,7 @@ clean:
 test:
 	python setup.py build_ext --inplace
 	python test-noaho.py
+
+regenerate_cpp:
+	pip install cython
+	python cython-regenerate-noaho-setup.py build
