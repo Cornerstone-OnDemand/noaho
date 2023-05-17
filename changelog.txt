@@ -1,3 +1,6 @@
+2023-02-16, 0.11.2
+* fix for python3.11
+
 2023-02-16, 0.11.1
 * drop support of python 3.6 for pip
 

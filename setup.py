@@ -25,7 +25,7 @@ noaho_module = Extension(
     extra_link_args=extra_args,
 )
 
-version = "0.11.1"
+version = "0.11.2"
 
 setup(
     name="noahong",
